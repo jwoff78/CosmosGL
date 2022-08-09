@@ -1,4 +1,4 @@
-﻿using Cosmos.Core.Memory.Old;
+﻿using Cosmos.Core.Memory;
 using CosmosGL.System.Drivers;
 
 namespace CosmosGL.System.Graphics
@@ -15,7 +15,7 @@ namespace CosmosGL.System.Graphics
             Width = width;
             Height = height;
 
-            _buffer = (uint*) Heap.MemAlloc((uint) (Width * Height * 4));
+            _buffer = (uint*) Heap.Alloc((uint) (Width * Height * 4));
         }
 
         public void SetPixel(int x, int y, Color c)

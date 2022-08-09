@@ -81,11 +81,5 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\CosmosGL.System\CosmosGL.System.csproj">
-      <Project>{fe5d1c8a-81cd-47e5-8f02-b7e403299c3b}</Project>
-      <Name>CosmosGL.System</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -64,17 +64,17 @@ namespace TestKernel
 
             _frames++;
 
-            //  var g = new Graphics(Canvas);
+            var g = new Graphics(Canvas);
 
-            //g.Clear(Colors.White);
+            g.Clear(Colors.White);
 
 
-            /*
+            
             //var img = Image.FromBytes(MyvarLogoPng.Myvar_LogoPng, "png");
             var img = Image.FromBytes(MyvarLogoPPM.Myvar_LogoPPM, "ppm");
-            g.DrawImage(10, 10, img);*/
+            g.DrawImage(10, 10, img);
 
-            // Canvas.WriteToScreen();
+            Canvas.WriteToScreen();
         }
     }
 }

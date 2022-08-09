@@ -8,7 +8,6 @@ namespace CosmosGL.System.Imaging
 {
     public class Image
     {
-
         public static Image FromBytes(byte[] data, string type)
         {
             switch (type)

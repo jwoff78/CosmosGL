@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Cosmos.IL2CPU.API.Attribs;
+using IL2CPU.API.Attribs;
 using CosmosGL.System.Drivers;
 using CosmosGL.System.Graphics;
 using XSharp.Assembler;
